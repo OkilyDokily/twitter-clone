@@ -1,14 +1,12 @@
 import React from "react";
 
-function Navigation() {
+function Post() {
   return (
-    <React.Fragment>
-      <div>
+      <div class="post">
         <input type="text"/>
         <input type="submit"/>
       </div>
-    </React.Fragment>
   );
 }
 
-export default Navigation;
+export default Post;

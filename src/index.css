@@ -1,0 +1,30 @@
+#navigation{
+  display:flex;
+  border:black 1px solid;
+}
+
+#navigation div{
+  margin-left: 10px;
+  border-right:black 1px solid;
+  padding-right: 5px;;
+}
+
+#header {
+ display: flex;
+ justify-content: space-between; 
+}
+
+#header .search{
+  margin-right: 10px;
+}
+
+#individualnavigation{
+  margin:auto;
+  display:flex;
+}
+
+#individualnavigation p{
+  font-size: 12px;
+  margin-left: 10px;
+  padding-right: 5px;
+}

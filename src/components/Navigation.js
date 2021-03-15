@@ -2,13 +2,11 @@ import React from "react";
 
 function Navigation() {
   return (
-    <React.Fragment>
-      <div>
+      <div id="navigation">
         <div>Home</div>
         <div>Notifications</div>
         <div>Messages</div>
       </div>
-    </React.Fragment>
   );
 }
 

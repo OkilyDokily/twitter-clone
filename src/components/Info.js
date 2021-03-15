@@ -1,13 +1,16 @@
 import React from "react";
+import Avatar from "./Avatar";
+import Name from "./Name";
+import IndividualNavigation from "./IndividualNavigation";
 
-function Navigation() {
+function Info() {
   return (
-    <React.Fragment>
-      <div>
-
-      </div>
-    </React.Fragment>
+    <div id="info">
+      <Avatar/>
+      <Name/>
+      <IndividualNavigation/>
+    </div>
   );
 }
 
-export default Navigation;
+export default Info;
