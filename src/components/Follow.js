@@ -3,10 +3,10 @@ import Avatar from "./Avatar";
 
 function Follow(prop) {
   return (
-    <div class="follow">
+    <div className="follow">
       <Avatar />
-      <p>{prop.person}</p>
-      <input type="button">Follow</input>
+      <p>{prop.follow}</p>
+      <input type="button" value="Follow"/>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
 
-function Post() {
+function Post(prop) {
+
   return (
-      <div class="post">
-        <input type="text"/>
-        <input type="submit"/>
+      <div style={prop.postStyle} className="post">
+        <input style={prop.buttonStyle} type="submit" value={prop.buttonValue}/>
+        <input type="text" placeholder={prop.placeHolder}/>   
       </div>
   );
 }

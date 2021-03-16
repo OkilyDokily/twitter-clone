@@ -1,10 +1,10 @@
 import Follow from "./Follow";
-
+const follow = ["lorem adfasda afsdafsd", "asdfasdfasdf", "adfsdfasdfsddsfa", "dsafdsafdsfsdafasd", "dsafsdafdasfasdagffd"];
 function FollowGroup(prop) {
   return (
     <div id="followgroup">
       <p>This person has recently followed</p>
-      {prop.followList.slice(0, 3).map(x=><Follow/>)}
+      {follow.slice(0, 3).map(x=><Follow follow={x}/>)}
     </div>
   );
 }

@@ -4,6 +4,8 @@ import Name from "./Name";
 import IndividualNavigation from "./IndividualNavigation";
 
 function Info() {
+
+
   return (
     <div id="info">
       <Avatar/>

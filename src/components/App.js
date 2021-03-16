@@ -1,21 +1,22 @@
 import React from "react";
-import Navigation from "./Navigation";
-import Search from "./Post";
-import Info from "./Info";
-import Profile from "./Profile";
 import TweetGroup from "./TweetGroup";
 import Header from "./Header"
 import Left from "./Left"
+import FollowGroup from "./FollowGroup";
 
 
 
 function App() {
   return (
-    <React.Fragment>
+    <div id="app">
       <Header/>
-      <Left/>
-      <TweetGroup/>
-    </React.Fragment>
+      <hr/>
+      <div id="main">
+        <Left />
+        <TweetGroup />
+        <FollowGroup />
+      </div>
+    </div>
   );
 }
 
