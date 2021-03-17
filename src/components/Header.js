@@ -6,21 +6,27 @@ const searchButton = {
   border: "blue 1px solid",
 }
 
-const placeHolder = "What's Happening."
+const placeHolder = "Search"
 const value = "Search"
 
 const postStyles = {
   backgroundColor: 'lightblue',
-  margin: '15px',
+  margin: '0px',
   display: "flex",
   flexDirection:"row-reverse"
+}
+
+const inputStyles ={
+  border: "blue 1px solid",
+  borderRadius: "15px",
+  marginRight: "10px"
 }
 
 function Header(prop) {
   return (
     <div id="header">
       <Navigation/>
-      <Post buttonStyle={searchButton} postStyle={postStyles} placeHolder={placeHolder} buttonValue={value} />
+      <Post inputStyles = {inputStyles} buttonStyle={searchButton} postStyle={postStyles} placeHolder={placeHolder} buttonValue={value} />
     </div>
   );
 }

@@ -7,11 +7,23 @@ import FollowGroup from "./FollowGroup";
 
 
 function App() {
+
+  const appStyle = {
+    maxWidth: "800px",
+    minWidth: "600px",
+    margin:"auto"
+  }
+
+  const mainStyle = {
+      display: "flex",
+      justifyContent: "space-between"
+  }
+
   return (
-    <div id="app">
+    <div style={appStyle} id="app">
       <Header/>
       <hr/>
-      <div id="main">
+      <div style={mainStyle} id="main">
         <Left />
         <TweetGroup />
         <FollowGroup />

@@ -2,12 +2,21 @@ import Avatar from "./Avatar";
 
 
 function Tweet(prop) {
+  const tweetStyle = {
+    display: "flex",
+    borderBottom: "grey 1px solid"
+  }
+  
+  const textArea = {
+    fontWeight:"bold"
+  }
+
   return (
-    <div className="tweet">
+    <div style={tweetStyle} className="tweet">
       <div className="tweetWrapper">
-        <Avatar/>
+        <Avatar avatarStyle="defaultStyle"/>
         <div className="textArea">
-          <p>name</p>
+          <p style={textArea}>name</p>
           <p>{prop.tweet}</p>
         </div>
       </div>  
