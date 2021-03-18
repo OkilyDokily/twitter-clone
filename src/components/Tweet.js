@@ -4,7 +4,8 @@ import Avatar from "./Avatar";
 function Tweet(prop) {
   const tweetStyle = {
     display: "flex",
-    borderBottom: "grey 1px solid"
+    border: "gray 1px solid",
+    borderBottom:"none"
   }
   
   const textArea = {

@@ -16,9 +16,10 @@ function Follow(prop) {
   }
 
   const buttonStyle = {
-    borderRadius:"0px",
+    borderRadius:"2px",
     backgroundColor:"blue",
-    color:"white"
+    color:"white",
+    border:"none"
   }
 
   const innerDivStyle= {

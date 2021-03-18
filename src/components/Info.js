@@ -18,10 +18,13 @@ function Info() {
   }
   
   const infoNameStyle = {
+    position:"relative",
+    left: "70px",
     margin:"0px",
     padding:"10px",
-    paddingTop: "0px",
-    textAlign: "right"
+    paddingTop: "5px",
+    // textAlign: "right",
+    // color:"black"
   }
 
   return (

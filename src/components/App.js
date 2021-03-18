@@ -11,7 +11,8 @@ function App() {
   const appStyle = {
     maxWidth: "800px",
     minWidth: "600px",
-    margin:"auto"
+    margin:"auto",
+    marginTop:"20px"
   }
 
   const mainStyle = {

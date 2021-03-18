@@ -11,12 +11,14 @@ function Info(prop) {
       height: "50px",
       position: "absolute",
       top: "45px",
-      left:"10px"
+      left:"10px",
+      objectFit:"cover"
     },
 
     defaultStyle: {
       width: "40px",
-      height: "40px"
+      height: "40px",
+      objectFit: "cover"
     }
 
   }

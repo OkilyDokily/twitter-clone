@@ -6,11 +6,19 @@ function IndividualNavigation(prop) {
       display: "flex",
       padding: "10px"
   }
+
+  const paragraphs = {
+    fontSize: "10px",
+    marginLeft: "10px",
+    paddingRight: "5px",
+    color:"gray"
+  }
+
   return (
     <div style={individualnavigationStyle} id="individualnavigation">
-      <p><a href={prop.tweetsUrl}>Tweets</a></p>
-      <p><a href={prop.followingUrl}>Following</a></p>
-      <p><a href={prop.followersUrl}>Followers</a></p>
+      <p style={paragraphs}><a href={prop.tweetsUrl}>TWEETS</a></p>
+      <p style={paragraphs}><a href={prop.followingUrl}>FOLLOWING</a></p>
+      <p style={paragraphs}><a href={prop.followersUrl}>FOLLOWERS</a></p>
     </div>
   );
 }
