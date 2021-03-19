@@ -12,10 +12,12 @@ function Navigation() {
   }
 
   const innerDivStyle ={
-    borderRight: "rgb(73, 72, 72) 1px solid",
-    padding:"10px"
+    borderRight: "gray 1px solid",
+    borderLeft:"none",
+    padding:"10px",
+    paddingLeft:"15px",
+    paddingRight:"15px"
   }
-
 
   return (
       <div style={navigationStyle} id="navigation">

@@ -1,5 +1,5 @@
 import Avatar from "./Avatar";
-
+import PropTypes from 'prop-types';
 
 function Tweet(prop) {
   const tweetStyle = {
@@ -24,5 +24,8 @@ function Tweet(prop) {
     </div>
   );
 }
+Tweet.propTypes = {
+  tweet: PropTypes.string
+};
 
 export default Tweet;

@@ -14,7 +14,9 @@ function Info() {
 
   const colorDivStyle = {
     backgroundColor:"lightblue",
-    height:"80px"
+    height:"80px",
+    boxShadow: "0 0 5px rgba(0, 0, 0, 0.75)",
+    clipPath: "inset(0px 0px -5px 0px)"
   }
   
   const infoNameStyle = {

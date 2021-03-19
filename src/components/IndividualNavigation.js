@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 function IndividualNavigation(prop) {
   const individualnavigationStyle = {
@@ -22,5 +23,12 @@ function IndividualNavigation(prop) {
     </div>
   );
 }
+
+IndividualNavigation.propTypes = {
+  tweetsUrl: PropTypes.string,
+  followingUrl: PropTypes.string,
+  followersUrl: PropTypes.string,
+
+};
 
 export default IndividualNavigation;

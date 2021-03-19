@@ -1,5 +1,6 @@
 import React from "react";
 import Tweet from "./Tweet";
+import PropTypes from 'prop-types';
 
 function Tweets(prop) {
   return (
@@ -8,5 +9,9 @@ function Tweets(prop) {
     </div>
    );
 }
+Tweets.propTypes = {
+  tweets: PropTypes.arrayOf(PropTypes.string)
+};
+
 
 export default Tweets;

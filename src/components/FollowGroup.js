@@ -1,8 +1,10 @@
 import Follow from "./Follow";
-const follow = ["lorem adfasda afsdafsd", "asdfasdfasdf", "adfsdfasdfsddsfa", "dsafdsafdsfsdafasd", "dsafsdafdasfasdagffd"];
 
 
-function FollowGroup(prop) {
+const follow = ["lorem adfasda", "asdfasdfasdf", "adfsdfasdfsddsfa", "dsafdsafdsfsdafasd", "dsafsdafdasfasdagffd"];
+
+
+function FollowGroup() {
   const followGroupStyle = {
     padding: "5px",
     paddingLeft: "10px",
@@ -17,5 +19,6 @@ function FollowGroup(prop) {
     </div>
   );
 }
+
 
 export default FollowGroup;

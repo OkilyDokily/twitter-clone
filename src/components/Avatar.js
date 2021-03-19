@@ -1,8 +1,9 @@
 import React from "react";
-import avatar from '../joyous.jpg'
+import avatar from '../joyous.jpg';
+import PropTypes from 'prop-types';
 
 
-function Info(prop) {
+function Avatar(prop) {
   const avatarStyles = {
     infoStyle: {
       borderRadius: "10px",
@@ -19,15 +20,23 @@ function Info(prop) {
       width: "40px",
       height: "40px",
       objectFit: "cover"
+    },
+
+    followStyle: {
+      width: "40px",
+      height: "50px",
+      objectFit: "cover"
     }
 
   }
 
   return (
-   <div>
      <img style={avatarStyles[prop.avatarStyle]} alt="avatar" className="Avatar" src={avatar}/>
-   </div>
   );
 }
 
-export default Info;
+Avatar.propTypes = {
+  avatarStyle: PropTypes.string
+};
+
+export default Avatar;

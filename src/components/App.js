@@ -5,19 +5,17 @@ import Left from "./Left"
 import FollowGroup from "./FollowGroup";
 
 
-
 function App() {
 
   const appStyle = {
-    maxWidth: "800px",
-    minWidth: "600px",
     margin:"auto",
-    marginTop:"20px"
+    marginTop:"20px",
+    width: "680px"
   }
 
   const mainStyle = {
       display: "flex",
-      justifyContent: "space-between"
+      justifyContent: "space-between",
   }
 
   return (
