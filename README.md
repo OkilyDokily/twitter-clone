@@ -27,15 +27,18 @@ _Open a Github issue if you see a problem or have questions_
 
 _React_
 
+## Component Graph
+<img src="./twitter-clone.drawio.png"
+     alt="component diagram"
+     style="float: left; margin-right: 10px;" />
+
 ### License
 
 *Feel free to use this code as you please*
 
 Copyright (c) 2020 **_Matthew_**
 
-<img src="./twitter-clone.drawio.png"
-     alt="component diagram"
-     style="float: left; margin-right: 10px;" />
+
 
 # Getting Started with Create React App
 
